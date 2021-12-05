@@ -1,0 +1,45 @@
+.standarts {
+  background-color: #f6f6f8;
+}
+
+.standarts__project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.standarts__image {
+  flex: 50%;
+}
+
+.standarts__image img {
+  width: 100%;
+}
+
+.standarts__title {
+  font-size: 38px;
+  color: rgb(50, 50, 50);
+}
+
+.standarts__text,
+.standarts__project_item p {
+  color: rgb(153, 153, 153);
+}
+
+.standarts__project {
+  border-top: 1px solid rgb(224, 224, 224);
+  padding: 5% 0;
+}
+
+.standarts__project_item span {
+  font-size: 20px;
+}
+
+.standarts__link {
+  color: rgb(88, 131, 247);
+  padding-left: 5%;
+}
+
+.standarts__title,
+.standarts__text {
+  padding: 5%;
+}

@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  background-color: rgb(89, 118, 247);
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(71, 103, 245);
+}
+
+.container {
+  padding: 0 20%;
+}
+
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+
+.flexbox {
+  display: flex;
+  text-align: start;
+  padding: 5% 0;
+  justify-content: space-evenly;
+}
+
+.flexbox div {
+  flex: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .header__link {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .servise__header {
+    flex-direction: column;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .servise__header_link {
+    text-align: center;
+  }
+
+  .standarts__image {
+    display: none;
+  }
+
+  .flexbox {
+    flex-direction: column;
+  }
+
+  .video__preview_btn {
+    top: 17%;
+    right: 8%;
+    padding: 0;
+  }
+
+  .servise__header_title {
+    font-size: 30px;
+  }
+
+  .news__form_email,
+  .news__form_btn {
+    padding: 0;
+  }
+
+  .video__text {
+    color: black;
+  }
+  .video__preview {
+    width: 100%;
+  }
+  .video__preview_btn-play {
+    width: 20%;
+  }
+  .video__preview_btn-text {
+    padding: 0;
+  }
+  .main-page__title,
+  .about__title,
+  .standarts__title,
+  .servise__header_title,
+  .project__title,
+  .video__title {
+    font-size: 28px;
+  }
+  #menu__toggle:checked ~ .header__link {
+    visibility: visible;
+    right: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1370px) {
+  .video__preview_btn {
+    top: 30%;
+    right: 27%;
+  }
+}

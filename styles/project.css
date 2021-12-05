@@ -1,0 +1,33 @@
+#project {
+  background-color: #f6f6f8;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#project img {
+  width: 100%;
+}
+
+.project__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__title {
+  font-size: 38px;
+  padding-top: 8%;
+}
+
+.project__text {
+  color: rgb(153, 153, 153);
+  padding: 5%;
+}
+
+.project__link {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+.project__item_image:not(:last-child) {
+  padding-right: 2%;
+}

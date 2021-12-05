@@ -1,0 +1,46 @@
+.background-servise {
+  background: linear-gradient(to bottom, #582fc9 55%, #ffffff 45%);
+  margin-bottom: 2%;
+}
+
+.servise img {
+  width: 100%;
+}
+
+.servise__item {
+  padding-bottom: 8%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.servise__item:not(:last-child) {
+  padding-right: 2%;
+}
+
+.servise__header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8%;
+}
+.servise__header_title {
+  color: white;
+  font-size: 38px;
+}
+
+.servise__item_text {
+  color: rgb(153, 153, 153);
+}
+
+.servise__item_link {
+  color: rgb(88, 131, 247);
+}
+
+.servise__item_title,
+.servise__item_text,
+.servise__item_link {
+  padding: 2%;
+}
+
+.servise__header_link {
+  height: 40px;
+  margin-top: 30px;
+}

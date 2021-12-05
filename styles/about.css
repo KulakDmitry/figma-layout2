@@ -1,0 +1,48 @@
+#about {
+  margin: 4% 0;
+  text-align: center;
+}
+
+.about__title,
+.about__text {
+  padding: 3% 0;
+}
+
+.about__title {
+  font-size: 38px;
+}
+
+.about__link {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+.about__site {
+  display: flex;
+}
+
+.about__title {
+  color: rgb(50, 50, 50);
+}
+
+.about__text {
+  color: rgb(153, 153, 153);
+}
+
+.about__site_icon {
+  padding: 15px;
+}
+.about__site_icon img {
+  border: 1px solid rgb(88, 131, 247);
+  border-radius: 8px;
+  padding: 10%;
+}
+
+.about__site_title {
+  padding: 5% 0;
+  color: rgb(50, 50, 50);
+}
+
+.about__site_text {
+  color: rgb(153, 153, 153);
+}

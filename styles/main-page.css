@@ -1,0 +1,14 @@
+.main-page {
+  padding: 20% 0;
+}
+
+.main-page__title {
+  margin: 0;
+  font-size: 48px;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.main-page__button {
+  margin-top: 10px;
+}

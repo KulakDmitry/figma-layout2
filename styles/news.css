@@ -1,0 +1,36 @@
+#news {
+  text-align: center;
+}
+
+.news__title {
+  padding-top: 5%;
+}
+
+.news__text {
+  color: rgb(153, 153, 153);
+  padding: 1%;
+}
+
+.news__info {
+  display: block;
+  padding: 2% 0 5%;
+}
+
+.news__form_email {
+  margin: 0;
+  padding: 10px 50px;
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid white;
+  box-shadow: 0 0 5px 3px #f2f2f2;
+}
+
+.news__form_btn {
+  margin: 0;
+  padding: 10px 50px;
+  border-radius: 0 15px 15px 0;
+  color: white;
+  background-color: rgb(88, 131, 247);
+  cursor: pointer;
+  border: 1px solid rgb(88, 131, 247);
+  box-shadow: 0 0 5px 3px #f2f2f2;
+}
